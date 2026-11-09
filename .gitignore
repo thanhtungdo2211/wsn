@@ -1,0 +1,50 @@
+# --- LaTeX build artifacts ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+_minted*/
+build/
+out/
+
+# Compiled outputs (rebuild from source; un-ignore final versions when submitting)
+report/*.pdf
+slides/*.pdf
+
+# --- Office temp / lock files ---
+~$*
+.~lock.*#
+
+# --- Python (figure scripts) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Node ---
+node_modules/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
